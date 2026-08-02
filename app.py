@@ -81,20 +81,20 @@ with st.sidebar:
     st.header("CONTROL PANEL")
     st.markdown("---")
 
-#     # Angle Input
-#     st.subheader("Enter Angle")
-#     # Initialize session state for angle if not present
-#     if "angle_input" not in st.session_state:
-#         st.session_state.angle_input = 45.0
-#     # Use the session state value as the default for the number input
-#     angle = st.number_input(
-#         "Angle (Degrees):",
-#         value=st.session_state.angle_input,
-#         step=1.0,
-#         format="%.1f"
-#     )
-#     # Keep session state in sync with the widget
-#     st.session_state.angle_input = angle
+    # Angle Input
+    st.subheader("Enter Angle")
+    # Initialize session state for angle if not present
+    if "angle_input" not in st.session_state:
+        st.session_state.angle_input = 45.0
+    # Use the session state value as the default for the number input
+    angle = st.number_input(
+        "Angle (Degrees):",
+        value=st.session_state.angle_input,
+        step=1.0,
+        format="%.1f"
+    )
+    # Keep session state in sync with the widget
+    st.session_state.angle_input = angle
 
     st.markdown("---")
 

@@ -1,4 +1,1 @@
-streamlit
-numpy
-plotly
-pandas
+streamlit==1.50.0
